@@ -33,7 +33,7 @@ while running:
     screen.update()
     time.sleep(0.1)
 
-    # for segment in right_paddle.segments:
+
     if ball.distance(right_paddle) < 30 and ball.xcor() < 320 or ball.distance(left_paddle) < 30 and ball.xcor() > -320:
         ball.bounce_x()
 

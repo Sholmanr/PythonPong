@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ebd1ba9-42c2-400c-8434-b1f3db8605e6" name="Changes" comment="Created the paddles and implemented the movement">
-      <change afterPath="$PROJECT_DIR$/UI.py" afterDir="false" />
+    <list default="true" id="8ebd1ba9-42c2-400c-8434-b1f3db8605e6" name="Changes" comment="Started the ball">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI.py" beforeDir="false" afterPath="$PROJECT_DIR$/UI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ball.py" beforeDir="false" afterPath="$PROJECT_DIR$/ball.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/paddles.py" beforeDir="false" afterPath="$PROJECT_DIR$/paddles.py" afterDir="false" />
     </list>
@@ -67,14 +68,41 @@
       <option name="project" value="LOCAL" />
       <updated>1786150821722</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Created the UI and the scoreboard">
+      <option name="closed" value="true" />
+      <created>1786582844815</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1786582844815</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Started the ball">
+      <option name="closed" value="true" />
+      <created>1786583093652</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1786583093652</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created the paddles and implemented the movement" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created the paddles and implemented the movement" />
+    <MESSAGE value="Created the UI and the scoreboard" />
+    <MESSAGE value="Started the ball" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started the ball" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="segment.position()" language="Python" />

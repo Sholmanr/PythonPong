@@ -1,8 +1,6 @@
 import turtle
 from turtle import Turtle
 
-left_score = 2
-right_score = 3
 FONT = "Courier", 24, "normal"
 class UI(Turtle):
 
@@ -18,7 +16,7 @@ class UI(Turtle):
         for i in range(0,11):
             segment = Turtle("square")
             segment.goto(coord)
-            segment.shapesize(1.4, 0.5, 0.75)
+            segment.shapesize(1.4, 0.5, 0.60)
             segment.color("white")
             coord = (0, segment.ycor()-60)
             self.segments.append(segment)

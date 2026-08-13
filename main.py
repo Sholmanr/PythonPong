@@ -2,6 +2,7 @@ from turtle import Turtle, Screen
 from paddles import Paddle
 import UI as ui
 import time
+from ball import Ball
 
 STARTING_CORDS = [(-290,20), (280,20)]
 running = True
@@ -17,7 +18,7 @@ right_paddle = Paddle(coords=STARTING_CORDS[1])
 interface = ui.UI()
 left = ui.LeftSideScore()
 right = ui.RightSideScore()
-
+ball = Ball()
 
 
 screen.listen()

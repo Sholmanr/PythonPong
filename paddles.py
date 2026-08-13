@@ -5,6 +5,10 @@ class Paddle(Turtle):
         super().__init__()
         self.segments = []
         self.create_paddle(coords)
+        self.up = False
+        self.down = False
+        self.w = False
+        self.s = False
 
     def create_paddle(self, coords):
 
@@ -31,3 +35,20 @@ class Paddle(Turtle):
             self.segments[segment].goto(xcor, ycor)
 
         self.segments[len(self.segments) - 1].goto(self.segments[len(self.segments) - 1].xcor(), self.segments[len(self.segments) - 1].ycor() - 20)
+
+    def press_up(self):
+        self.up = True
+        while self.up:
+            self.move_paddle_up()
+
+    def press_s(self):
+        self.s = True
+        while self.s:
+            self.move_paddle_down()
+
+    def release_up(self):
+        self.up = False
+
+    def release_s(self):
+        self.s = False
+
